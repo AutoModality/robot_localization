@@ -3,7 +3,7 @@
     <rosparam command="load" file="$(find robot_localization)/params/ekf_am_feature.yaml" />
 
    <!--  Placeholder for output topic remapping -->
-    <!-- <remap from="odometry/filtered" to=""/> -->
+    <remap from="/odometry/filtered" to="/ekf/odometry"/>
     <!-- <remap from="accel/filtered" to=""/> -->
 
   </node>
