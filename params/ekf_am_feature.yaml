@@ -250,7 +250,7 @@ initial_estimate_covariance: [1e-9, 0,    0,    0,    0,    0,    0,    0,    0,
                               0,    0,    0,    0,    0,    0,    0,    0,    0,    0,     0,     0,     0,    0,    1e-9]
 
 # This is the default initial state of the filter
-initial_state: [2.1, 0.003, -1.783,
+initial_state: [-13.74, -10.9, 0.14,
                 0.0, 0.0, 0.0,
                 0.0, 0.0, 0.0,
                 0.0, 0.0, 0.0,
